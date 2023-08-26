@@ -59,6 +59,7 @@ section:not(:first-child) {
   z-index: 1;
   max-width: 1340px;
   margin: auto;
+
 }
 
 /* Header */
@@ -228,4 +229,10 @@ section:not(:first-child) {
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+@media (max-width: 1340px) {
+  .container {
+    padding: 0 15px;
+  }
 }

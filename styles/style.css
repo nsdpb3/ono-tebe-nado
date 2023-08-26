@@ -18,6 +18,7 @@
   gap: 9px;
   color: #fff;
   font-size: 6.25em;
+  overflow-x: hidden;
 }
 
 .cover__bottom {
