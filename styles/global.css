@@ -215,7 +215,7 @@ section:not(:first-child) {
 
 .footer .container {
   display: grid;
-  grid-template-columns: 240px 150px 240px;
+  grid-template-columns: 240px 190px 240px;
   justify-content: space-between;
   align-items: start;
 }
