@@ -49,6 +49,7 @@
   align-items: center;
   margin-bottom: 92px;
   padding: 0 50px;
+  margin-top: 92px;
 }
 
 .header__menu-list {
@@ -263,6 +264,7 @@
   align-items: start;
   margin-top: 180px;
   padding: 0 50px;
+  margin-bottom: 90px;
 }
 
 .footer__menu-list-item {
