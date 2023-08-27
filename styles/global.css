@@ -59,7 +59,6 @@ section:not(:first-child) {
   z-index: 1;
   max-width: 1340px;
   margin: auto;
-
 }
 
 /* Header */
@@ -76,7 +75,7 @@ section:not(:first-child) {
 
 .header__menu-list {
   display: flex;
-  gap: 2em;
+  gap: 32px;
   list-style-type: circle;
 }
 
@@ -165,7 +164,7 @@ section:not(:first-child) {
 }
 
 .card-link {
-  display: inline-block;
+  display: block;
   height: 100%;
 }
 
