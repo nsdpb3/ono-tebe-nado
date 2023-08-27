@@ -181,7 +181,7 @@ section:not(:first-child) {
 
 .card__title {
   font-size: 1.375em;
-  line-height: 1.2;
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -190,8 +190,7 @@ section:not(:first-child) {
   border-bottom: unset;
   font-weight: 400;
   font-size: 1.25em;
-  line-height: 1.2;
-  text-decoration: none !important;
+  line-height: 120%;
 }
 
 .contacts {
@@ -200,7 +199,7 @@ section:not(:first-child) {
   max-width: 240px;
   padding-top: 5px;
   font-size: 1.125em;
-  line-height: 24px;
+  line-height: 135%;
 
 }
 
