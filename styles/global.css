@@ -5,13 +5,12 @@
 }
 
 body {
-  padding: 0;
   min-width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, Arial, Helvetica, sans-serif;
-  line-height: normal;
   max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
   padding: 92px 0 90px 0;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 h1,
