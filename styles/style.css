@@ -43,15 +43,12 @@
 
 /* Header */
 .header {
-  margin-bottom: 92px;
-  padding: 0 50px;
-}
-
-.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 92px;
+  padding: 0 50px;
 }
 
 .header__menu-list {
@@ -162,7 +159,6 @@
 
 .card {
   position: relative;
-  position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -254,9 +250,6 @@
 .about__text {
   margin-top: 100px;
   font-size: 1.25em;
-}
-
-.about__text {
   display: flex;
   flex-direction: column;
   gap: 25px;
