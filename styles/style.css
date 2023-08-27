@@ -2,16 +2,30 @@
 
 /* section Cover */
 .cover {
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "overflow";
+}
+
+.cover__bg {
+  grid-area: overflow;
+  object-fit: cover;
+}
+
+.cover__bg img {
+  object-fit: cover;
+  height: 757px;
 }
 
 .cover>.container {
   padding-top: 165px;
   padding-bottom: 50px;
+  position: relative;
+  grid-area: overflow;
+  color: white;
+  width: 100%;
 }
+
 
 .cover__title {
   display: flex;
@@ -34,7 +48,7 @@
   color: #fff;
   font-weight: 400;
   font-size: inherit;
-  line-height: 1.2;
+  line-height: 120%;
   text-transform: uppercase;
   word-spacing: 17.5px;
   transform: translate(30px, 0px);
