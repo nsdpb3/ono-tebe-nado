@@ -248,24 +248,21 @@
 }
 
 .about__text {
-  margin-top: 100px;
-  font-size: 1.25em;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  margin-top: 100px;
+  font-size: 1.25em;
 }
 
 /* Footer */
-.footer {
-  margin-top: 180px;
-  padding: 0 50px;
-}
-
 .footer {
   display: grid;
   grid-template-columns: 240px 190px 240px;
   justify-content: space-between;
   align-items: start;
+  margin-top: 180px;
+  padding: 0 50px;
 }
 
 .footer__menu-list-item {
