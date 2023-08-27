@@ -47,9 +47,9 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
+  margin-top: 92px;
   margin-bottom: 92px;
   padding: 0 50px;
-  margin-top: 92px;
 }
 
 .header__menu-list {
@@ -263,8 +263,8 @@
   justify-content: space-between;
   align-items: start;
   margin-top: 180px;
-  padding: 0 50px;
   margin-bottom: 90px;
+  padding: 0 50px;
 }
 
 .footer__menu-list-item {
