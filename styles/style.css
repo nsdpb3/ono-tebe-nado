@@ -108,6 +108,10 @@
   background-color: #000;
 }
 
+.about__logo img {
+  max-width: 140px;
+}
+
 .about__text {
   margin-top: 100px;
   font-size: 1.25em;

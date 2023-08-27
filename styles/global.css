@@ -80,6 +80,10 @@ section:not(:first-child) {
   list-style-type: circle;
 }
 
+.header__logo {
+  min-width: 140px;
+}
+
 .header__menu-list-item {
   list-style-type: circle;
 }
