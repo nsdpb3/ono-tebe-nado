@@ -1,1 +1,1 @@
-https://nsdpb3.github.io/ono-tebe-nado/
+https://github.com/nsdpb3/ono-tebe-nado.git
